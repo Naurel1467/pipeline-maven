@@ -18,7 +18,7 @@ pipeline {
 
     post {
      success {
-            archiveArtifacts artifacts: 'java-app/target/*.jar', fingerprint: true
+            archiveArtifacts artifacts: 'java-appp/target/*.jar', fingerprint: true
         }
        }
       }
@@ -30,7 +30,7 @@ pipeline {
 
     post {
      always {
-      junit 'java-app/target/*.xml'
+      junit 'java-appp/target/*.xml'
         }
       }
     }
