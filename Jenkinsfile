@@ -3,7 +3,7 @@ pipeline {
   agent any
 
   environment {
-    PASS = credentials('docker-push-password')    # adding credentials which are added in jenkins credentials section
+    PASS = credentials('docker-push-password')    #adding credentials which are added in jenkins credentials section
    }
 
   stages {
