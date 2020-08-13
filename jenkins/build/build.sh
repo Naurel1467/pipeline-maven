@@ -4,5 +4,8 @@
 
 cp -f java-appp/target/*.jar jenkins/build/
 
-echo "***building image****"
+echo "**********************"
+echo "***building image*****"
+echo "********************"
+
 cd jenkins/build/ && docker-compose -f docker-compose-build.yml build
